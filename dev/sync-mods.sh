@@ -11,9 +11,9 @@ PZ_MODS_DIR="${PZ_MODS_DIR:-$HOME/Zomboid/mods}"
 DEST_MOD_DIR="$PZ_MODS_DIR/$MOD_ID"
 
 "$SCRIPT_DIR/build.sh"
+"$SCRIPT_DIR/build-assets.sh"
 
 mkdir -p "$DEST_MOD_DIR"
 rsync -a --delete "$SRC_MOD_DIR/" "$DEST_MOD_DIR/"
 
 echo "[synced] $MOD_ID -> $DEST_MOD_DIR"
-
