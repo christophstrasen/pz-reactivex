@@ -1,0 +1,3 @@
+[submodule "external/lua-reactivex"]
+	path = external/lua-reactivex
+	url = https://github.com/christophstrasen/lua-reactivex.git

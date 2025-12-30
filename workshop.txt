@@ -1,0 +1,6 @@
+version=1
+title=reactivex [42]
+description=Reactive Extensions for Lua (packaged as a Project Zomboid Build 42 library mod).
+tags=Library;Utility;Build 42;Development
+visibility=Public
+
