@@ -21,7 +21,7 @@ Watch + deploy (default: Workshop wrapper under `~/Zomboid/Workshop`):
 ./dev/watch.sh
 ```
 
-Switch destination:
+Optional: deploy to `~/Zomboid/mods` instead:
 
 ```bash
 TARGET=mods ./dev/watch.sh
@@ -34,4 +34,3 @@ This is a packaging repo: `dev/build.sh` copies Lua payload from `external/lua-r
 `Contents/mods/reactivex/42/media/lua/shared/`
 
 `dev/sync-*.sh` runs `dev/build.sh` automatically.
-

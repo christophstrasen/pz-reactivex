@@ -7,10 +7,10 @@ This repo packages `lua-reactivex` as a standalone Project Zomboid Build 42 mod.
 
 ## Local development
 
-One-off deploy to your local mods folder:
+One-off deploy to your local Workshop wrapper folder (default):
 
 ```bash
-./dev/sync-mods.sh
+./dev/sync-workshop.sh
 ```
 
 Watch mode:
@@ -19,10 +19,10 @@ Watch mode:
 ./dev/watch.sh
 ```
 
-Workshop wrapper folder (for upload preview):
+Optional: deploy to your local mods folder instead:
 
 ```bash
-./dev/sync-workshop.sh
+./dev/sync-mods.sh
 ```
 
 ## Upstream
