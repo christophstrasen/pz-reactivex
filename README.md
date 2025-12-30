@@ -27,5 +27,8 @@ Workshop wrapper folder (for upload preview):
 
 ## Upstream
 
-Upstream source lives as a submodule at `external/lua-reactivex`.
+Upstream source lives as a submodule at `external/lua-reactivex` and is developed here:
 
+- https://github.com/christophstrasen/lua-reactivex
+
+This repo is a packaging layer; if you want to change the library implementation, prefer contributing upstream and then updating the submodule pointer here.
