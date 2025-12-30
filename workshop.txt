@@ -1,6 +1,17 @@
 version=1
-title=reactivex [42]
-description=Reactive Extensions for Lua (packaged as a Project Zomboid Build 42 library mod).
+title=[42] reactivex
+description=reactivex - Reactive Extensions for Lua (Project Zomboid Build 42 library mod)
+
+NOT TESTED IN MULTIPLAYER. DON'T USE THERE. YOU HAVE BEEN WARNED. thx.
+
+Reactive Extensions for Lua, packaged as a Build 42 library mod.
+This is intended for mid-level Lua mod developers who want observable-style
+event streams and composition operators in Project Zomboid.
+
+This is a developer library, not gameplay content. It does nothing on its own.
+
+GitHub (packaging repo):
+https://github.com/christophstrasen/pz-reactivex
+
 tags=Library;Utility;Build 42;Development
 visibility=Public
-
