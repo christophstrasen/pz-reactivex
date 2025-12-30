@@ -5,6 +5,13 @@ This repo packages `lua-reactivex` as a standalone Project Zomboid Build 42 mod.
 - **Mod ID:** `reactivex`
 - **Display name:** `reactivex [42]`
 
+## Scope
+
+This repo is a **packaging wrapper**: it turns `lua-reactivex` into a Project Zomboid Build 42 mod (`reactivex [42]`).
+
+- For ReactiveX library docs and implementation, see upstream: https://github.com/christophstrasen/lua-reactivex
+- For DREAM suite overview and cross-module examples, start at DREAM (meta-mod): https://github.com/christophstrasen/pz-dream
+
 ## Local development
 
 One-off deploy to your local Workshop wrapper folder (default):
