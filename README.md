@@ -14,23 +14,7 @@ This repo is a **packaging wrapper**: it turns `lua-reactivex` into a Project Zo
 
 ## Local development
 
-One-off deploy to your local Workshop wrapper folder (default):
-
-```bash
-./dev/sync-workshop.sh
-```
-
-Watch mode:
-
-```bash
-./dev/watch.sh
-```
-
-Optional: deploy to your local mods folder instead:
-
-```bash
-./dev/sync-mods.sh
-```
+See `development.md`.
 
 ## Upstream
 
