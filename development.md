@@ -57,5 +57,27 @@ This packaging repo does not ship its own unit tests. To run upstream lua-reacti
 
 ```bash
 cd external/lua-reactivex
-busted tests
+lua tests/runner.lua
+```
+
+## Lint
+
+```bash
+luacheck Contents/mods/reactivex/42/media/lua/shared/reactivex Contents/mods/reactivex/42/media/lua/shared/reactivex.lua Contents/mods/reactivex/42/media/lua/shared/operators.lua
+```
+
+## Pre-commit hooks
+
+This repo ships a `.pre-commit-config.yaml` mirroring CI (`luacheck` + upstream unit tests).
+
+Enable hooks:
+
+```bash
+pre-commit install
+```
+
+Run on demand:
+
+```bash
+pre-commit run --all-files
 ```

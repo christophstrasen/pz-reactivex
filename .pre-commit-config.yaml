@@ -1,0 +1,13 @@
+repos:
+  - repo: local
+    hooks:
+      - id: luacheck
+        name: Run luacheck
+        entry: luacheck Contents/mods/reactivex/42/media/lua/shared/reactivex Contents/mods/reactivex/42/media/lua/shared/reactivex.lua Contents/mods/reactivex/42/media/lua/shared/operators.lua
+        language: system
+        pass_filenames: false
+      - id: lua-reactivex-tests
+        name: Run lua-reactivex unit tests
+        entry: bash -lc 'cd external/lua-reactivex && lua tests/runner.lua'
+        language: system
+        pass_filenames: false
