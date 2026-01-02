@@ -1,9 +1,12 @@
 # reactivex [42] (Project Zomboid mod)
 
-This repo packages `lua-reactivex` as a standalone Project Zomboid Build 42 mod.
+Packages `lua-reactivex` as a standalone Project Zomboid Build 42 mod as part of the [DREAM](https://github.com/christophstrasen/DREAM) family.
 
-- **Mod ID:** `reactivex`
-- **Display name:** `reactivex [42]`
+---
+
+[Steam Workshop → [42] reactivex](LinkTBD)
+
+---
 
 ## Scope
 
