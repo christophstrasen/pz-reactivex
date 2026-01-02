@@ -4,7 +4,7 @@ Packages `lua-reactivex` as a standalone Project Zomboid Build 42 mod as part of
 
 ---
 
-[Steam Workshop → [42] reactivex](LinkTBD)
+[Steam Workshop → [42] reactivex](https://steamcommunity.com/sharedfiles/filedetails/?id=3637570496)
 
 ---
 

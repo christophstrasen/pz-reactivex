@@ -1,6 +1,6 @@
 reactivex [42]
 -------------
-Workshop ID: TBD
+Workshop ID: 3637570496
 Mod ID: reactivex
-Steam Page: TBD
+Steam Page: https://steamcommunity.com/sharedfiles/filedetails/?id=3637570496
 
