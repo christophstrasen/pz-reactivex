@@ -3,7 +3,7 @@
 This repo packages `lua-reactivex` as a standalone Project Zomboid Build 42 mod.
 
 Part of the DREAM mod family:
-- DREAM-Workspace (multi-repo convenience): https://github.com/christophstrasen/DREAM-Workspace
+- DREAM (multi-repo convenience): https://github.com/christophstrasen/DREAM
 
 ## Quickstart (single repo)
 
