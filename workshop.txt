@@ -1,18 +1,42 @@
 version=1
 id=3637570496
-title=[42] reactivex
-description=reactivex - Reactive Extensions for Lua (Project Zomboid Build 42 library mod)
+title=[42] reactivex - Gives Lua the power of Observables: data structures that represent a stream of values over time.
+description=[h1]Lua-ReactiveX[/h1]
 description=
-description=NOT TESTED IN MULTIPLAYER. DON'T USE THERE. thx.
+description=[url=http://reactivex.io]Reactive Extensions[/url] for Lua.
 description=
 description=Reactive Extensions for Lua, packaged as a Build 42 library mod.
-description=This is intended for mid-level Lua mod developers who want observable-style
-description=event streams and composition operators in Project Zomboid.
 description=
-description=This is a developer library, not gameplay content. It does nothing on its own.
+description=Credits to: Paweł K 4O4 and Bjorn bjornbytes.
 description=
-description=GitHub (packaging repo):
-description=https://github.com/christophstrasen/pz-reactivex
+description=Lua-ReactiveX gives Lua the power of Observables: data structures that represent a stream of values over time. They're handy for events, streams of data, asynchronous requests, and concurrency-like composition.
 description=
+description=[h2]Example Usage[/h2]
+description=Use ReactiveX to construct a simple cheer:
+description=
+description=[code]
+description=local rx = require("reactivex")
+description=
+description=rx.Observable.fromRange(1, 8)
+description=  :filter(function(x) return x % 2 == 0 end)
+description=  :concat(rx.Observable.of('who do we appreciate'))
+description=  :map(function(value) return value .. '!' end)
+description=  :subscribe(print)
+description=
+description=-- => 2! 4! 6! 8! who do we appreciate!
+description=[/code]
+description=
+description=See [url=https://github.com/christophstrasen/lua-reactivex/tree/main/examples]examples[/url] for more.
+description=
+description=[h2]Resources[/h2]
+description=[list]
+description=[*][url=https://github.com/christophstrasen/lua-reactivex/tree/main/doc]Documentation[/url]
+description=[*][url=http://reactivex.io/intro.html]ReactiveX Introduction[/url]
+description=[/list]
+description=
+description=[b]GitHub:[/b] [url=https://github.com/christophstrasen/lua-reactivex]https://github.com/christophstrasen/lua-reactivex[/url]
+description=
+description=[h2]Forking[/h2]
+description=Modifications to this mod are welcome. Ideally as a PR on GitHub. You may publish your own version on the Steam Workshop under the condition that you give credit, clearly label the modded version and refer to the original. If in doubt get in touch via a GitHub issue.
 tags=Framework;Build 42;
 visibility=Public

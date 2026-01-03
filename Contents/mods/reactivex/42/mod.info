@@ -1,8 +1,10 @@
 name=[42] reactivex
 id=reactivex
 description=Reactive Extensions for Lua (packaged as a Project Zomboid Build 42 library mod).
-versionMin=42.0
+versionMin=42.13
 poster=poster.png
 icon=icon_64.png
+author=Karmachameleon
 authors=Karmachameleon
-version=0.1.1
+url=https://github.com/christophstrasen/lua-reactivex
+modversion=0.1.1
