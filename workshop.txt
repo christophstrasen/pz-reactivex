@@ -1,11 +1,13 @@
 version=1
 id=3637570496
-title=[42] reactivex - Gives Lua the power of Observables: data structures that represent a stream of values over time.
+title=[42] reactivex 
 description=[h1]Lua-ReactiveX[/h1]
 description=
 description=[url=http://reactivex.io]Reactive Extensions[/url] for Lua.
 description=
-description=Reactive Extensions for Lua, packaged as a Build 42 library mod.
+description=Gives Lua the power of Observables: data structures that represent a stream of values over time.
+description=
+description=Packaged as a Build 42 library mod.
 description=
 description=Credits to: Paweł K 4O4 and Bjorn bjornbytes.
 description=

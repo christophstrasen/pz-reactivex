@@ -17,16 +17,10 @@ git submodule update --init external/lua-reactivex
 
 ## Sync
 
-Deploy to your local Workshop wrapper folder (default):
+Deploy to your local Workshop wrapper folder:
 
 ```bash
 ./dev/sync-workshop.sh
-```
-
-Optional: deploy to `~/Zomboid/mods` instead:
-
-```bash
-./dev/sync-mods.sh
 ```
 
 ## Watch
@@ -37,19 +31,13 @@ Watch + deploy (default: Workshop wrapper under `~/Zomboid/Workshop`):
 ./dev/watch.sh
 ```
 
-Optional: deploy to `~/Zomboid/mods` instead:
-
-```bash
-TARGET=mods ./dev/watch.sh
-```
-
 ## How the payload is built
 
 This is a packaging repo: `dev/build.sh` copies Lua payload from `external/lua-reactivex/` into:
 
 `Contents/mods/reactivex/42/media/lua/shared/`
 
-`dev/sync-*.sh` runs `dev/build.sh` automatically.
+`dev/sync-workshop.sh` runs `dev/build.sh` automatically.
 
 ## Tests
 
